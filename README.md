@@ -2,11 +2,10 @@
 
 Console based BMS (Banking-Management-System) using C++
 A CLI banking management system using C++, OOP principles, and file I/O for data persistence.
-This project demonstrates fundamental banking operations with secure multi-tiered access control.
 
 ## Technologies Used
 
-* C++ (Standard Library)
+* C++ (STL)
 * File I/O for data persistence (.csv files)
 * Object-Oriented Programming (OOP) principles
 
@@ -14,7 +13,7 @@ This project demonstrates fundamental banking operations with secure multi-tiere
 
 * **Tiered Access Control**: Implements secure separation of duties for Customer, Staff, and Manager modes, each with distinct permissions.
 * **Data Persistence (File I/O):** All customer and employee data is dynamically loaded from and saved to dedicated `.csv` files upon program launch and exit.
-* **Object-Oriented Design (OOP):** Built around separate, encapsulated classes (`BankAccount`, `Employee`, `Manager`) for modular, reusable, and maintainable code.
+* **Object-Oriented Design (OOP):** Built around separate, encapsulated classes (`BankAccount`, `Employee`, `Manager`) for modular and reusable code.
 * **Full CRUD Functionality:** Supports Create, Read, Update, and Delete operations on both customer accounts and employee records.
 * **Unique ID Generation:** Uses static member variables and file I/O to ensure account and employee IDs are unique and sequential across multiple program sessions.
 * **Clean Architecture:** Functions are organized across multiple source (`.cpp`) and header (`.h`) files for clarity and maintainability.
@@ -40,7 +39,7 @@ This project is fully functional (V1.0) but has planned architectural improvemen
 
 * Database Integration: Replace File I/O (.csv files) with a proper database connection for scalable data handling. [PLANNED]
 
-* GUI Interface: Develop a graphical user interface (GUI) for improved user experience over the command-line interface, using Qt or Iamgui. [IN_PROGRESS]
+* GUI Interface: Develop a graphical user interface (GUI) for improved user experience over the command-line interface, using Qt. [IN_PROGRESS]
 
 ## Functionality Overview
 
